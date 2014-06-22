@@ -1,7 +1,7 @@
 ##File Descriptions
 
 ###run_analysis.R  
-**Prerequsites:**  Requires table.data R package.
+**Prerequsites:**  Requires table.data R package.  For further info please refer to http://cran.r-project.org/web/packages/data.table/index.html.
 
 **Description:**  R script which combines and transforms the training and test data sets from into a tidy data set.
 
