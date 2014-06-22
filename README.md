@@ -1,3 +1,10 @@
+##General Processing
+The run_analysis.R script performs the necessary R code to read in, combine, and label the Samsung data set.  
+
+The script creates two files tidy_data.txt and tidy_data_means.txt.  Both are pipe '|' delimited files.  See file descriptions below for further information regarding the datasets.
+
+Further processing details are documented in [CODEBOOK.md](https://github.com/ordoultra/GettingAndCleaningData/blob/master/CODEBOOK.md "Descriptive Data Code Book")
+
 ##File Descriptions
 
 ###run_analysis.R  
@@ -10,9 +17,6 @@
 
 ###tidy_data_means.txt
 **Description:**  A tidy data set which contains the mean of all observations by feature column grouped by subject and activity.
-
-##General Processing
-The run_analysis.R script performs the necessary R code to read in, combine, and label the Samsung data set.  A series of steps is take to create a tidy data set.  Further processing details are documented in [CODEBOOK.md](https://github.com/ordoultra/GettingAndCleaningData/blob/master/CODEBOOK.md "Descriptive Data Code Book")
 
 ##Instructions
 1.  Download the Samsung data from:  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
