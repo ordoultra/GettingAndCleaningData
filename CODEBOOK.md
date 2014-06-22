@@ -4,12 +4,14 @@
 2.  Combine test/subject_test.txt  test/X_test.txt  test/y_test.txt into a single test set.
 3.  Label both training and test data frames with headers provided in features.txt.
 4.  Extract columns which contain std or mean strings in the headers ignoring case.  Also include subject and activity columns.
-5.  Save the resultant data frame to the file system.
+5.  Save the resultant data to the file system.
 
 ###tidy_data_means.txt
-1.  Use the data.table package and lapply to calcualte means of each column grouped by subject and activity.
-2.  Clean up headers.
-3.  Save the resultant data frame to the file system.
+1.  Read the frame tidy_data created in the tidy_data.txt processing steps.
+2.  Transform the data.frame into a data.table using the data.table package.
+3.  Using data.table functionality to execute lapply to calcualte means of each column grouped by subject and activity.
+4.  Clean up headers.
+5.  Save the resultant data to the file system.
 
 ##tidy_data.txt Column Headers
 
