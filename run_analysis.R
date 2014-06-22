@@ -9,7 +9,7 @@ activity_label = 'Activity'
 #Read in the activity descriptions
 ActivityLabels <- read.table('activity_labels.txt', strip.white=TRUE)
 
-## Read in, combine, and label the Train sets from the file system
+## Read in, combine, and label the data sets from the file system
 ## Params:
 ##   x - location of X dataset (e.g. X_train.txt, X_test.txt)
 ##   subject - location of subject dataset (e.g. subject_train.txt, subject_test.txt)
