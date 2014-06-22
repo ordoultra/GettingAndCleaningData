@@ -3,7 +3,7 @@
 ###run_analysis.R  
 **Prerequsites:**  Requires table.data R package.  For further info please refer to http://cran.r-project.org/web/packages/data.table/index.html.
 
-**Description:**  R script which combines and transforms the training and test data sets from into a tidy data set.
+**Description:**  R script which combines and transforms the training and test data sets from into a tidy data set.  Data sets can be found here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 ###tidy_data.txt
 **Description:**  A tidy data set which contains both a combination of the training and test sets including subjects and activity lables.
